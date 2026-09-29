@@ -1,0 +1,131 @@
+{
+  "manifest_version": "1.0",
+  "package_id": "BWCTG-EP01-FINAL-20260929",
+  "package_name": "BeforeWeCloseTheGate_EP01_FINAL_PACKAGE",
+  "version": "FINAL",
+  "release_date": "2026-09-29T18:30:00+07:00",
+  "project": "Before We Close the Gate",
+  "episode": "EP01",
+  "episode_title": "นักสืบกับความกล้าที่อยู่ปลายเชือก",
+  "status": {
+    "canon_status": "MASTER_CANON",
+    "cci": 96,
+    "risk_level": "LOW",
+    "production_status": "UNLOCKED",
+    "release_status": "READY_FOR_EXECUTIVE_SIGN_OFF"
+  },
+  "metrics": {
+    "scene_count": 11,
+    "frame_count": 39,
+    "image_prompts": 39,
+    "motion_prompts": 39,
+    "negative_prompts": 39
+  },
+  "sla_policy": {
+    "at_risk_threshold_percent": 20,
+    "statuses": [
+      "Completed",
+      "On Track",
+      "Pending",
+      "At Risk",
+      "Overdue",
+      "Escalated"
+    ]
+  },
+  "workflow_state": {
+    "writing": "complete",
+    "art": "complete",
+    "animation": "complete",
+    "editing": "complete",
+    "qa": "complete",
+    "executive_review": "pending"
+  },
+  "file_count": 12,
+  "checksum_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".github/workflows/verify-manifest.yml",
+      "category": "documentation",
+      "media_type": "application/yaml",
+      "size_bytes": 3637,
+      "sha256": "582ba30753a9e93b89d88a37ded940c590fb585ac818b6729490e44625bc2213"
+    },
+    {
+      "path": "Canon/BeforeWeCloseTheGate_CanonPackage_FINAL.zip",
+      "category": "canon",
+      "media_type": "application/zip",
+      "size_bytes": 25554,
+      "sha256": "7dc77b6085957637f905dcd38a085eff6f5e63df0af1059eb03284d720002ff6"
+    },
+    {
+      "path": "Documentation/README_MANIFEST_TOOLS.md",
+      "category": "documentation",
+      "media_type": "text/markdown",
+      "size_bytes": 3362,
+      "sha256": "635700bb40430d510cd9a79c914a7082c6ce15d3c323119bcbe93098b5fee0e0"
+    },
+    {
+      "path": "Documentation/manifest.schema.json",
+      "category": "documentation",
+      "media_type": "application/json",
+      "size_bytes": 4118,
+      "sha256": "a5b70dbc785f2bbeea384e0d2a7b1a1b9d5796b7e7d5c31e4e2ca4581ab8d5c9"
+    },
+    {
+      "path": "Editing/EP01_Editor_ShotList_FINAL.csv",
+      "category": "editing",
+      "media_type": "text/csv",
+      "size_bytes": 3472,
+      "sha256": "4cbba7712bda4dff4bd8acaecf0b4803502c4acbafdd8fa72b264ef7dab2da60"
+    },
+    {
+      "path": "Executive/EP01_Executive_PMO_FINAL.xlsx",
+      "category": "executive",
+      "media_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 20370,
+      "sha256": "19047e92d3d0078b814c3ae0aaa3af342c7f5d2daf19c29bfaa835d06ff9bc67"
+    },
+    {
+      "path": "Executive/EP01_Executive_Presentation_FINAL.pptx",
+      "category": "executive",
+      "media_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "size_bytes": 3192433,
+      "sha256": "bd53ef4a3f0eea0e77867bd4fa9636cac549f69a1fc41a5348b8010c106e1eb1"
+    },
+    {
+      "path": "README_FINAL.md",
+      "category": "documentation",
+      "media_type": "text/markdown",
+      "size_bytes": 10316,
+      "sha256": "e8f78e1668fe6bdb05a06f208e9149d5237ee53f038707aacb26df36c6674333"
+    },
+    {
+      "path": "Tools/build_manifest.py",
+      "category": "documentation",
+      "media_type": "text/x-python",
+      "size_bytes": 10727,
+      "sha256": "da7380900a25d3f8b3bbd65a269229a3f63e70c41e1416a1477cc3e89507ddde"
+    },
+    {
+      "path": "Tools/verify_manifest.py",
+      "category": "documentation",
+      "media_type": "text/x-python",
+      "size_bytes": 7747,
+      "sha256": "b9514e528c06473db67b6a7936afbd0685a0b08c582ca2d0fdb71f848ca61c49"
+    },
+    {
+      "path": "requirements.txt",
+      "category": "documentation",
+      "media_type": "text/plain",
+      "size_bytes": 28,
+      "sha256": "b14f8a27d9fbbb4b0a7cd8d6925b13449cb9762a49f0c82d5d63107fb7ceef23"
+    },
+    {
+      "path": "tests/test_manifest_tools.py",
+      "category": "documentation",
+      "media_type": "text/x-python",
+      "size_bytes": 3459,
+      "sha256": "9a7b3c7ddaed763fa57a85d709da79d01953a369e420221f20402e0517f971b9"
+    }
+  ]
+}
